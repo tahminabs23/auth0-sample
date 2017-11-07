@@ -1,0 +1,9 @@
+io.ionic.starter.auth0://tahmina.auth0.com/cordova/io.ionic.starter.auth0/callback
+
+npm install auth0-js @auth0/cordova --save
+
+ionic cordova plugin add cordova-plugin-safariviewcontroller
+
+ionic cordova plugin add cordova-plugin-customurlscheme --variable URL_SCHEME=io.ionic.starter.auth0 --variable ANDROID_SCHEME=io.ionic.starter.auth0 --variable ANDROID_HOST=tahmina.auth0.com --variable ANDROID_PATHPREFIX=/cordova/io.ionic.starter.auth0/callback
+
+ionic cordova plugin add cordova-plugin-statusbar
